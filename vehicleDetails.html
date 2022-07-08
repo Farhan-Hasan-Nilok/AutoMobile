@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Details</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <!-- bootstar link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    
+    <style>
+        .car-data{
+            padding: 12px 26px 13px 23px;
+            background-color: #f0f2f5;
+        }
+
+        table{
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        tbody{
+            vertical-align: middle;
+            display: table-row-group;
+        }
+        tr{
+            display: table-row;
+        }
+
+        .car-data> table tr td{
+            padding: 12px 0 6px;
+        }
+
+        .car-data> table tr td.lable{
+            padding-right: 20px;
+            text-transform: uppercase;
+            color: #888;
+            font-size: 12px;
+        }
+        table > tbody tr td {
+            border-bottom: 1px solid #d5d9e0;
+        }
+
+        .car-data> table tr td.value{
+            padding-left: 30px;
+            margin-bottom: 0;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .btn{
+          margin-left: 75px;
+        }
+
+        @media only screen and (max-width: 768px){
+            .btn{
+               margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1 class="m-4">Toyota CHR G LED 2017</h1>
+            <div class="row">
+                <div class="col-md-7 m-4">
+                    <img class="img-thumbnail" src="images/car-details/Toyota CHR G LED/Toyota CHR G LED 2017.jpg" alt="">
+                </div>
+                <div class="col-md-3 m-4 car-data">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="lable">Body</td>
+                                <td class="value">SUV</td>
+                            </tr>
+
+                            <tr>
+                                <td class="lable">Fuel type</td>
+                                <td class="value">Octane</td>
+                            </tr>
+
+                            <tr>
+                                <td class="lable">Year</td>
+                                <td class="value">2017</td>
+                            </tr>
+
+                            <tr>
+                                <td class="lable">Transmission</td>
+                                <td class="value">Automatic</td>
+                            </tr>
+
+                            <tr>
+                                <td class="lable">Drive</td>
+                                <td class="value">2WD</td>
+                            </tr>
+
+                            <tr>
+                                <td class="lable">Exterior Color</td>
+                                <td class="value">Grey</td>
+                            </tr>
+
+                            <tr>
+                                <td class="lable">Interior Color</td>
+                                <td class="value">Mixed</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center col-sm-12 m-4">
+                <img class="img-thumbnail" src="images/car-details/Toyota CHR G LED/Toyota CHR G LED interior.jpg" alt="">
+                </div>
+                <div class="col-md-3 text-center col-sm-12 m-4">
+                    <img class="img-thumbnail" src="images/car-details/Toyota CHR G LED/Toyota CHR G LED 2017 back.jpg" alt="">
+                </div>
+                <div class="col-md-3 mt-5 btn text-center">
+                 <a href="" class="custom">custom order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
