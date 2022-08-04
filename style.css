@@ -19,6 +19,10 @@ section{
     font-weight: 500!important;
 }
 
+.logo{
+    width: 35px
+}
+
 .order-btn{
     text-align: center;
     padding-top: 86vh;
